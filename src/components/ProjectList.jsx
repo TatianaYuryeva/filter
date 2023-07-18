@@ -8,7 +8,7 @@ export class ProjectList extends Component {
     let projectList = []
     let img
     for (let i = 0; i < items.length; i++) {
-      img = <img src={items[i].img} className="portfolio-img" category={items[i].category} key={i} alt="Project image" />
+      img = <img src={items[i].img} className="portfolio-img" category={items[i].category} key={i} alt="Project" />
       projectList.push(img)
     }
     return projectList
