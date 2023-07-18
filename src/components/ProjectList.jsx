@@ -4,7 +4,6 @@ export class ProjectList extends Component {
   
   list() {
     const { items } = this.props;
-    //console.log(items)
     let projectList = []
     let img
     for (let i = 0; i < items.length; i++) {
