@@ -1,0 +1,12 @@
+.filter-btn {
+  margin: 10px
+}
+
+.selected {
+  color: #ffffff;
+  background-color: #000000; 
+}
+
+.portfolio-img {
+  margin: 10px;
+}
